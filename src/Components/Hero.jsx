@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaCheck } from "react-icons/fa6";
+import {SiSometing} from "react-icons/si";
 import { IoStar } from "react-icons/io5";
 import HeroImg from '../assets/heroimg.png'
 import H1 from '../assets/h1.jpg'
