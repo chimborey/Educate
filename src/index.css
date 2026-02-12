@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font */
+.font{
+      font-family: "Roboto", sans-serif;
+}
+
+
+/* color */
+.black{
+      color: oklch(14.5% 0 0);
+}
+.white{
+      color: oklch(99.58% 0.00259 230.474);
+}
+.neutral{
+      color: oklch(43.9% 0 0);
+}
+.indigo{
+      color: oklch(58.5% 0.233 277.117);;
+}
+.pink{
+      color: oklch(65.6% 0.241 354.308);;
+}
+.blue{
+      color: oklch(48.8% 0.243 264.376);
+}
+.green{
+      color: oklch(59.994% 0.1668 149.129);
+}
+
+
+/* size */
+.size-title{
+      font-size: 1.7rem;
+}
+.size-text{
+      font-size: 1.2rem;
+}
+.size-desc{
+      font-size: 1rem;
+}
+
+
+/* bg-color */
+.bg-white{
+      background-color: oklch(95.1% 0.026 236.824);
+}
+.bg-green{
+      background-color: oklch(83.19% 0.13536 155.711);
+}
+.bg-pink{
+      background-color: oklch(65.6% 0.241 354.308);
+}
+.bg-orange{
+      background-color: oklch(83.7% 0.128 66.29);
+}
+.bg-indigo{
+      background-color: oklch(58.5% 0.233 277.117);
+}
+
+.btn{
+      width: 120px;
+      display: block;
+      padding: 7px 27px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: "Roboto", sans-serif;
+      border-radius: 7px;
+      border: 1px solid oklch(72.3% 0.219 149.579);
+      transition: all 0.3s linear;
+      color: oklch(15.434% 0.00002 271.152);
+}
+.btn:hover{
+      transition-duration: 0.3s;
+      transform: rotate(2deg);
+}
+.cart{
+      width: 170px;
+      display: block;
+      padding: 7px 27px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: "Roboto", sans-serif;
+      border-radius: 25px;
+      border: 1px solid oklch(72.3% 0.219 149.579);
+      transition: all 0.3s linear;
+      color: oklch(96.279% 0.00642 16.332);
+      background-color: rgb(8, 133, 10);
+}
+.cart:hover{
+      transition-duration: 0.3s;
+      background-color: rgb(45, 171, 45);
+}
+
+.get1{
+      width: 137px;
+      display: block;
+      padding: 7px 27px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: "Roboto", sans-serif;
+      border-radius: 20px;
+      border: 1px solid oklch(72.3% 0.219 149.579);
+      transition: all 0.3s linear;
+      background-color: oklch(72.3% 0.219 149.579);
+      color:oklch(99.58% 0.00259 230.474);
+      font-size: 1rem;
+      font-family: "Roboto", sans-serif;
+}
+.get1:hover{
+      opacity: 0.7;
+}
+
+.continue{
+      width: 100%;
+      display: block;
+      padding: 7px 27px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: "Roboto", sans-serif;
+      border-radius: 17px;
+      border: 1px solid oklch(72.3% 0.219 149.579);
+      transition: all 0.3s linear;
+      color: oklch(96.279% 0.00642 16.332);
+      
+      margin-top: 20px; 
+      margin-bottom: 30px;
+}
+.continue:hover{
+      transition-duration: 0.3s;
+      background-color: rgb(45, 171, 45);
+}
+.get2{
+      width: 137px;
+      display: block;
+      padding: 7px 27px;
+      text-align: center;
+      text-transform: capitalize;
+      font-family: "Roboto", sans-serif;
+      border-radius: 20px;
+      border: 1px solid oklch(44.248% 0.00499 157.56);
+      transition: all 0.3s linear;
+      background-color: oklch(99.58% 0.00259 230.474);
+      color:oklch(72.3% 0.219 149.579);
+      font-size: 1rem;
+      font-family: "Roboto", sans-serif;
+}
+.get2:hover{
+      opacity: 0.7;
+}
+.radius{
+      border-bottom-left-radius: 10%;
+      border-top-right-radius: 50%;
+}
+.circle{
+      border-top-left-radius: 13%;
+      border-bottom-left-radius: 13%;
+}
+.state{
+      background-color: rgb(000,000,000,00.4);
+}
+.shadow{
+      box-shadow: 3px 3px 3px rgb(rgb(152, 187, 152));
+}
+
+.img{
+      width: 55%;
+      height: 55%;
+      border-radius: 50%;
+}
+
+.img03{
+      animation:pos 0.9s linear infinite;
+      background-color: rgb(203, 197, 197);
+      margin-top: 20px;
+}
+@keyframes pos{
+      0%{
+            transform: translateY(0px);
+      }
+      50%{
+            transform: translateY(-20px);
+      }
+      100%{
+            transform: translateY(0px);
+      }
+}
