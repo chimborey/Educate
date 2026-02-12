@@ -3,9 +3,9 @@ import { GiSandSnake } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import {SiSometing} from "react-icons/si";
-import L1 from '../assets/l1.jpg'
-import L2 from '../assets/l2.webp'
-import L3 from '../assets/l3.webp'
+import Last1 from '../assets/l1.jpg'
+import Last2 from '../assets/l2.webp'
+import Last3 from '../assets/l3.webp'
 const Latest = () => {
       return (
             <section className='w-full py-12 overflow-hidden'>
@@ -23,7 +23,7 @@ const Latest = () => {
                         <div className='grid grid-cols-1 md:grid-cols-3 gap-12 overflow-hidden mt-7 cursor-pointer'>
                               <div className='md:w-[300px] overflow-hidden' data-aos='fade-right' data-aos-duration='1200'>
                                     <div className='md:w-[300px] overflow-hidden relative rounded-lg hover:scale-110 duration-300 ease-linear bg-slate-600'>
-                                          <img src={L1} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
+                                          <img src={Last1} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
 
 
                                           <div>
@@ -56,7 +56,7 @@ const Latest = () => {
 
                               <div className='md:w-[300px] overflow-hidden' data-aos='zoom-in' data-aos-duration='1200'>
                                     <div className='md:w-[300px] overflow-hidden relative rounded-lg hover:scale-110 duration-300 ease-linear bg-slate-600'>
-                                          <img src={L2} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
+                                          <img src={Last2} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
 
 
                                           <div>
@@ -91,7 +91,7 @@ const Latest = () => {
 
                               <div className='md:w-[300px] overflow-hidden' data-aos='fade-left' data-aos-duration='1200'>
                                     <div className='md:w-[300px] overflow-hidden relative rounded-lg hover:scale-110 duration-300 ease-linear bg-slate-600'>
-                                          <img src={L3} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
+                                          <img src={Last3} alt="" className='md:w-[300px] md:h-[180px] rounded-lg hover:scale-110 duration-300 ease-linear' />
 
 
                                           <div>
