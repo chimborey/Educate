@@ -2,6 +2,7 @@ import React from 'react'
 import { GiSandSnake } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+import {SiSometing} from "react-icons/si";
 import L1 from '../assets/l1.jpg'
 import L2 from '../assets/l2.webp'
 import L3 from '../assets/l3.webp'
