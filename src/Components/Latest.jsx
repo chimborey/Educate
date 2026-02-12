@@ -3,9 +3,9 @@ import { GiSandSnake } from "react-icons/gi";
 import { FaUser } from "react-icons/fa";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import {SiSometing} from "react-icons/si";
-import Last1 from '../assets/last1.jpg'
-import Last2 from '../assets/last2.webp'
-import Last3 from '../assets/last3.webp'
+import Last1 from '../assets/Last1.jpg'
+import Last2 from '../assets/Last2.webp'
+import Last3 from '../assets/Last3.webp'
 const Latest = () => {
       return (
             <section className='w-full py-12 overflow-hidden'>
